@@ -55,16 +55,16 @@
   <ItemGroup>
      <Compile Include="Assets\EnemyController.cs" />
  <Reference Include="UnityEditor.StandardEvents">
- <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/Trabajos Github/Proyecto_Semestral/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/Trabajos Github/Proyecto_Semestral/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/Trabajos Github/Proyecto_Semestral/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>D:/UDEM/Materias 5°/Inteligencia artificial 2/Trabajos Github/Proyecto_Semestral/ProyectoSemestralPlataformero_MuñozÁvila/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.2.17f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

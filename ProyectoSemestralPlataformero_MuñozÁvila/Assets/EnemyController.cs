@@ -4,20 +4,18 @@ using UnityEngine;
 
 public class EnemyController : MonoBehaviour {
 
-    public float maxSpeed = 1f;
-    public float speed = 1f;
+    public float maxSpeed = 5f;
+    public float speed = 3f;
 
     private Rigidbody2D rb2d;
-    private Animator anim;
 
 	void Start () {
         rb2d = GetComponent<Rigidbody2D>();
-        anim = GetComponent<Animator>();
 	}
 
     void Update()
     {
-        anim.SetFloat("Speed", Mathf.Abs(rb2d.velocity.x));
+
     }
 	void FixedUpdate () {
         rb2d.AddForce(Vector2.right * speed);
@@ -30,11 +28,11 @@ public class EnemyController : MonoBehaviour {
             rb2d.velocity = new Vector2(speed, rb2d.velocity.y);
         }
 
-        if (speed < 0)
+        if (speed > 0)
         {
             transform.localScale = new Vector3(1f, 1f, 1f);
         }
-        else if (speed > 0)
+        else if (speed < 0)
         {
             transform.localScale = new Vector3(-1f, 1f, 1f);
         }
