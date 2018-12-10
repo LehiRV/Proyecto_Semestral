@@ -33,23 +33,8 @@ public class Enemy : MonoBehaviour {
         }
     }
 
-    void OnTriggerEnter2D(Collider2D col)
-    {// el asteroide choco con jugador
-     //Debug.Log ("Collision detectada");
-        if (col.tag.Equals("Player"))
-        {
-
-
-
-
-            Destroy(col.gameObject);// quitar col. desaparecen los asteroides
-
-            GameObject gcObj = GameObject.FindGameObjectWithTag("GameController");
-            GameController gc = gcObj.GetComponent<GameController>();
-            gc.lose();
-        }
-
-    }
-
+   
 }
+
+
 

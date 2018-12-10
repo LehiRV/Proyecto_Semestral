@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{8EA22752-66AB-33F0-50C6-42C43B7A4479}</ProjectGuid>
+    <ProjectGuid>{BD0430FB-D623-AA5B-CB50-7CE7F3F92272}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,21 +63,22 @@
   <ItemGroup>
     <Compile Include="Assets\scripts\Colicion.cs" />
     <Compile Include="Assets\scripts\Enemy.cs" />
+    <Compile Include="Assets\scripts\EnemyAttack.cs" />
     <Compile Include="Assets\scripts\GameController.cs" />
+    <Compile Include="Assets\scripts\Health.cs" />
     <Compile Include="Assets\scripts\muerte.cs" />
-    <Compile Include="Assets\scripts\Plataforma.cs" />
     <Compile Include="Assets\scripts\Player.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral IA/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral/Proyecto_Semestral/Proyecto_Semestral/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral IA/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral/Proyecto_Semestral/Proyecto_Semestral/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral IA/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral/Proyecto_Semestral/Proyecto_Semestral/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral IA/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/Lehi/Documents/Trabajos Foto y video/UDEM/Semestral/Proyecto_Semestral/Proyecto_Semestral/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
