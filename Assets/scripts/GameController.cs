@@ -6,10 +6,7 @@ using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-
-
-
-
+    
 
     public static int score = 20;
 

@@ -6,17 +6,8 @@ TagManager:
   tags:
   - Floor
   - Choque
-  - GameStage
-  - Moneda
   - onFloor
-  - GameControllerlevel2
-  - choquelevel2
-  - spawnelectric
-  - colelectric
-  - GameStage2
-  - GameStageEND
-  - spawnbullet
-  - GameController3
+  - Enemy
   layers:
   - Default
   - TransparentFX
